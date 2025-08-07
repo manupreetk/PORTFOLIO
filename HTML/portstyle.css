@@ -1,0 +1,118 @@
+h1{
+    
+    text-align: center;
+    font-size: 45px;
+    margin: 3px;
+    margin-bottom: 0rem;
+
+    background-color: #fff;
+    font-family: 'Times New Roman', Times, serif;
+}
+#bio{
+    text-align: center;
+    font-size: 20px;
+    padding-top: 8px;
+    margin-top: 0rem;
+    margin-bottom: 1rem;
+    /*border-style: solid; or border: 2px solid;
+    border-color: black;
+    border-radius: 50px;*/
+    background-color: #fff;
+}
+
+
+section{
+    background-color: rgb(248, 235, 249);
+    padding: 1.5rem;
+    box-shadow: 0 0 4px;
+    font-weight: bold;
+}
+nav{
+    background-color: rgb(150, 115, 170);
+    margin-top: 0.5rem;
+    margin-bottom: 0.7rem;
+    padding: 1px;
+    border: 3.5px solid rgb(81, 23, 89);
+   
+}
+nav ul{
+    list-style-type: none;
+    display: flex;
+    justify-content: space-around;
+
+}
+nav ul li a{
+    color: #ffffff;
+    font-size: 18px;
+}
+h2{
+    color: #050263;
+    font-size: 27px;
+    border-bottom: 2px solid #080479;
+}
+.cont-grp{
+    background-color: rgb(191, 174, 229);
+}
+h3{
+    color: rgb(0, 87, 181);
+}
+a:hover{
+    color:#080479;
+}
+.cont-grp input,textarea{
+    border: 2px solid rgb(249, 229, 236);
+}
+
+#admin-login{
+    display: none;
+}
+
+#user-msgs{
+    display: none;
+}
+
+.sendbtn{
+    display: flex;
+    /*justify-content: center;*/
+    margin-left: 110px; /* ?????*/
+    /*transition: background-color green 0.5s ease;*/
+}
+.sendbtn:hover{
+    background-color: green;
+}
+
+
+.form-row{
+    /*since alignment is not correct*/
+    display: flex;
+    align-items: center; /*isse "your message" middle me aagya horizonatally*/
+    margin: 10px 0;/*top bottom*/
+}
+
+#toggle-butn{
+    position: fixed;/*scroll kroge toh b same jgah rhega*/
+    top: 30px;
+    right: 30px;/*margin nhi use hota yaha*/
+    background-color: black;
+    color: white;
+    cursor: pointer;
+    border-radius: 8px;
+    transition: purple 0.5s ease;
+
+}
+#toggle-butn:hover{
+    background-color: rgb(3, 5, 137);
+}
+
+.dark-mode{
+    background-color: #050263;
+    color: #fff;
+}
+
+.dark-mode header{
+    background-color: #080479;
+}
+
+.dark-mode nav{
+    background-color: #555;
+}

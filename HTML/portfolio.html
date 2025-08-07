@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+    <link rel="stylesheet" href="portstyle.css">
+</head>
+
+
+<body>
+
+    <h1><u>Manupreet Kaur</u></h1>
+    <p id="bio"><u>Software Engineer</u></p>
+    <nav>
+
+        <ul type="">
+            <li><a href="#education">Education</a></li> <!--this # will directly take us there-->
+            <li><a href="#projects">Projects</a></li>
+            <li><a href="#experience">Experience</a></li>
+            <!--<li><a href="#skills" target="_blank">Skills</a></li>
+            <li><a href="hobbies.html" target="_blank">Hobbies</a></li>-->
+            <li><a href="#contact">Contact</a></li>
+            <li><a href="#admin-login" onclick="showAdminSection()">Admin Login</a></li>
+        </ul>
+    </nav>
+
+    <!--LIGHT DARK MODE-->
+    <button id="toggle-butn">Toggle theme</button>
+
+    <section id="education" class="">
+        <h2>Education</h2>
+        <h3>Masters in Applied AI</h3>
+        <p>University of San Diego</p>
+        <h3>Class 12</h3>
+        <p>ABC International School</p>
+    </section>
+
+
+    <section id="projects" class="">
+        <h2>Projects</h2>
+        <div class="">
+            <h3>Project 1</h3>
+            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Sint fugiat sapiente ipsa eligendi reiciendis
+                inventore?</p>
+            <h3>Project 2</h3>
+            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Perferendis libero soluta reiciendis amet
+                suscipit aut fuga corrupti, placeat cum nostrum.</p>
+
+        </div>
+
+    </section>
+
+    <section id="experience" class="">
+        <h2>Experience</h2>
+        <div class="">
+            <h3>Software engineer at amazon</h3>
+            <p>2025-present</p>
+            <h3>Technical Trainer at learning zone</h3>
+            <p>Lorem ipsum dolor sit amet consectetur.</p>
+            <p>2023-present</p>
+        </div>
+    </section>
+
+    <section id="contact" class="cont-grp">
+        <h2>Contact me</h2>
+        <form id="contact-form">
+            <div class="form-row">
+                Name:<input type="text" id="name" required>
+            </div>
+            <div class="form-row">
+                Email:<input type="email" id="email" required>
+            </div>
+            <div class="form-row">
+                Your message:<textarea name="myt" id="msg" placeholder="write your message here.."></textarea><br>
+            </div>
+            <div class="sendbtn">
+                <button type="submit" style="background-color: rgb(255, 255, 216);">Send</button>
+            </div>
+        </form>
+    </section>
+
+    <section id="admin-login" class="cont-grp">
+        <h2>Admin Login</h2>
+        <form id="admin-form">
+            <label>Username</label>
+            <input type="text" id="username">
+            <label>Password</label>
+            <input type="password" id="pw"><br><br>
+            <button type="submit" style="background-color: rgb(255, 255, 216);" id="">Send</button>
+        </form>
+    </section>
+
+    <section id="user-msgs" class="cont-grp">
+        <h2>User Messages</h2>
+        <div id="">
+
+        </div>
+    </section>
+    
+    <!-- CLICK EVENT-->
+    <div id="click-button" class="interactive-element" style="border: 2px solid; margin: 15px; padding: 2rem;">
+        Click Me! (Basic click event)
+    </div>
+
+    <!--OUTPUT AREA-->
+    <div id="output" style="border: 2px solid; margin: 15px; padding: 2rem;">Event results will appear here</div>
+
+    <!-- JAVASCRIPT-->
+    <script src="portfolio.js"></script> <!--LAST ME AYEGA YEH KYUKI PEHL HTML SAARA LOAD HOJAYE TOH IT WILL WORK -->
+</body>
+
+</html>

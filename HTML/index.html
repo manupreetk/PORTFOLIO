@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <!--INTERNAL CSS-->
+    <style>
+        p{
+            color: violet;
+        }
+    
+        .demo{
+            color: blue;
+        }
+        #demo2{
+            color: red;
+        }
+    </style>
+
+    <!--EXTERNAL CSS-->
+    <link rel="stylesheet" href="style.css"> <!--RELATION AND LINK TO CSS STYLE-->
+</head>
+
+<body>
+    <h1>yo</h1>
+    <p class="demo">Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+    <p id="demo2">Lorem ipsum dolor sit amet consectetur adipisicing elit. Natus nulla quidem voluptatibus placeat illo,
+        consequuntur, ea debitis alias maxime officia quibusdam ab? Earum, facilis. Nulla consequatur non temporibus
+        modi laborum.</p>
+    <p class="demo">Lorem ipsum dolor sit amet.</p>
+    
+    <div class="container">
+        <h1>test</h1>
+        <h3 class="head3">hello h3</h3>
+<h5 class="head5"> hello h5</h5>
+    </div>
+
+    
+    <!-- RELATIVE PATH-->
+    <img src="https://us.tonies.com/cdn/shop/files/Tonies-PDP-Assets-pottytraining-single.jpg?v=1734730724&width=3000"
+        style="height: 100px; width: 100px;" alt="potty">
+    <!--ABOLUTE PATH-->
+    <!-- for same folder ./name.jpgorpng and for outside the folder ../names.jpgorpng-->
+    <!--ANCHOR TAG-->
+    <a href="https://doodieman.com/" target="_blank">
+        <img src="./image.jpg" alt="wow" style="height: 130px; width: 200px;"></a>
+    <br>
+    <a href="https://www.youtube.com/">YouTube</a>
+
+    <!--FORM-->
+    <form>
+        <label for="username">nameu</label>
+        <input type="text" id="username" placeholder="enter your name" required>
+
+        <br><br>
+        <label for="email">email</label>
+        <input type="email" id="email" placeholder="enter your email" required>
+        <br><br>
+        <label for="message">msg</label>
+        <input type="text" id="message" placeholder="enter your msg">
+        <br><br>
+        date<input type="date" id="date">
+        <br><br>
+        <label for="car">Car</label>
+        <select id="car">
+            <option value="porsche">
+                Porsche
+            </option>
+            <option value="i10">
+                i10
+            </option>
+            <option value="bmw">
+                BMW
+            </option>
+        </select><br><br>
+        intro:<textarea name="myT" id="intro"></textarea>
+        <br>
+        zinda ho?<input type="checkbox"><br>
+        Gender
+        male<input type="radio" id="male">female<input type="radio" id="female">
+
+        <button type="submit">submit</button>
+        <button type="button" onclick="alert('hello')">click me</button>
+    </form>
+
+    <!--ORDERED LIST/UNORDERED-->
+    <ol type="i">
+        <li>apple</li>
+        <li>banana</li>
+    </ol>
+    <ul type="circle">
+        <li>orange</li>
+        <li>pineapple</li>
+    </ul>
+    <!--TABLE REMEMBER THEAD->TR->TH->TBODY->TR->TD-->
+    <table>
+        <thead>
+            <tr><!--table row-->
+                <th>name</th><!--column-->
+                <th>rollno</th>
+                <th>grade</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>manu</td><!--data column-->
+                <td>2</td>
+                <td>A</td>
+            </tr>
+            <tr>
+                <td>riya</td><!--data column-->
+                <td>3</td>
+                <td>B</td>
+            </tr>
+            <tr>
+                <td>nina</td><!--data column-->
+                <td>4</td>
+                <td>F</td>
+            </tr>
+        </tbody>
+    </table>
+    <!-- BLOCK TAGS: p and div INLINE:span a-->
+
+    <!--CSS STARTS HERE-->
+    <p>
+        hello,
+        <span style="color: aqua;">world!</span><!--INLINE-->
+    </p>
+    <br>
+    <a href="https://www.google.com" target="_blank">google</a>
+
+
+
+</body>
+</html>
+!
